@@ -1,0 +1,7 @@
+"use strict";
+var meses;
+meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+for (var i = 0; i < meses.length; i++) {
+    console.log(meses[i] + " " + (i + 1));
+}
+//# sourceMappingURL=Ejercicio_02.js.map

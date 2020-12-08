@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funciones.js"></script>
+    <title>HTML5 - Formulario Login</title>
+</head>
+<body>
+    <form>
+        <h2>Login</h2>
+        <table align="center">
+          <thead>
+            <td><h4>Ingreso de credenciales</h4></td>
+            <tr><td colspan="2"><hr></td></tr>
+          </thead>  
+          <tbody>
+            <tr>
+                <td>DNI:</td>
+                <td><input type="number" id="txtDni" min="1000000" max="50000000" required></td>
+                <td><span style="display: none;">*</span></td>
+            </tr>
+
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" id="apellido" required></td>
+                <td><span style="display: none;">*</span></td>
+            </tr>
+
+            <tr>
+                <td><input type="reset" value="Limpiar"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="btnEnviar"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+          </tbody>
+        </table>
+    </form>
+
+</body>
+</html>
